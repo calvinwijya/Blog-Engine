@@ -9,7 +9,7 @@ import (
 )
 
 func configureHost(s *article.HTTPServer) error {
-	hostStr, ok := os.LookupEnv("ARTICLE_HOST")
+	hostStr, ok := os.LookupEnv("localhost")
 	if !ok {
 		return nil
 	}
@@ -23,7 +23,7 @@ func configureHost(s *article.HTTPServer) error {
 }
 
 func configurePort(s *article.HTTPServer) error {
-	portStr, ok := os.LookupEnv("ARTICLE_PORT")
+	portStr, ok := os.LookupEnv("3000")
 	if !ok {
 		return nil
 	}

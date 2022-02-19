@@ -7,7 +7,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.4
 	github.com/go-chi/cors v1.2.0
 	github.com/google/uuid v1.3.0
-	github.com/lib/pq v1.10.3
+	github.com/lib/pq v1.10.4
 	github.com/stretchr/testify v1.7.0
 	gopkg.in/guregu/null.v4 v4.0.0
 )
